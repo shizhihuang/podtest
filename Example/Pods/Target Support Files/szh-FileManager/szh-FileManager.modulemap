@@ -1,0 +1,6 @@
+framework module szh_FileManager {
+  umbrella header "szh-FileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

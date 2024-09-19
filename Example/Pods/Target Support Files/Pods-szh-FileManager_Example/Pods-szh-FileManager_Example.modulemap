@@ -1,0 +1,6 @@
+framework module Pods_szh_FileManager_Example {
+  umbrella header "Pods-szh-FileManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

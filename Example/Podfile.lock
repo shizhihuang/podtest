@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - szh-FileManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - szh-FileManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  szh-FileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  szh-FileManager: f87e24163a38c03fadb01c1e5dacb2e05c29c12b
+
+PODFILE CHECKSUM: 95e1092b1531a379ec0c7545c1a7ac013225d927
+
+COCOAPODS: 1.11.3
