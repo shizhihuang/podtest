@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'szh-FileManager_Example' do
+  pod 'szh-FileManager', :path => '../'
+
+  target 'szh-FileManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
