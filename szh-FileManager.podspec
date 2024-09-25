@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'szh-FileManager/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'szh-FileManager/Classes/**/*.h'
   # s.resource_bundles = {
   #   'szh-FileManager' => ['szh-FileManager/Assets/*.png']
   # }
